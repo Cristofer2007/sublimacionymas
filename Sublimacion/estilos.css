@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.8em;
+  }
+  
+  main {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .galeria img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    color: #ff6b6b;
+    margin-top: 40px;
+  }
+  
+  ol, ul {
+    padding-left: 25px;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 60px;
+  }
+  .menu-vertical {
+    width: 200px;
+    background-color: #fff;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 100;
+  }
+  
+  .menu-vertical ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-vertical li {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .menu-vertical a {
+    display: block;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu-vertical a:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+  }
+/* Título principal */
+.titulo {
+  font-size: 3em;
+  font-family: 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  animation: latido 1.5s infinite ease-in-out;
+  transition: transform 0.3s;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #ff6a00;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenido {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.contenido img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.listas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #ec008c, #fc6767);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.header-content h1 {
+  font-size: 2.8em;
+}
+
+.header-content p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Contenido */
+.contenido {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(255, 252, 97);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  color: #ec008c;
+  margin-bottom: 15px;
+}
+
+.imagenes {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagenes img {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.listas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  background-color: #ec008c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c60076;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95em;
+  margin-top: 40px;
+}
+
+
+
